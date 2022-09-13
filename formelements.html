@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>form</title>
+</head>
+<body>
+    <form action="registration.php" method="get" style="border: 1px solid black">
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" id="firstname" placeholder="First Name"><br/>
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Last Name"><br/>
+        <label for="username">User Name</label>
+        <input type="text" name="username" id="username" placeholder="User Name"><br/>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Password"><br/>
+        <label for="profile">Profile : </label>
+        <textarea name="profile" id="profile" cols="50" rows="10" placeholder="Enter about your Profile"></textarea><br>
+        <label for="gender">Gender : </label>
+        <input type="radio" name="gender" id="male" >
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label><br>
+        <label for="date">DOB</label>
+        <input type="text" name="day" id="day" size="2" placeholder="DD">
+        <input type="text" name="month" id="month" size="2" placeholder="MM">
+        <input type="text" name="year" id="year" size="4" placeholder="YYYY">
+        <label for="dobex"> e.g. 03/08/1990</label><br>
+        <label for="qualification">Qualification : </label>
+        <input type="checkbox" name="bca" id="bca"> <label for="bca">BCA</label>
+        <input type="checkbox" name="mca" id="mca"> <label  for="mca">MCA</label>
+        <input type="checkbox" name="btech" id="btech"><label for="btech">B.Tech</label><br>
+       <input type="submit" name="submit" id="submit" value="Submit">
+
+
+    </form>
+</body>
+</html>
